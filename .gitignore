@@ -1,0 +1,27 @@
+# Python environments and generated files
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Tool caches and coverage
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Downloaded media and local credentials
+downloads/
+.env
+.env.*
+!.env.example
+cookies.txt
+cookies.*.txt
+
+# OS metadata
+.DS_Store
+Thumbs.db
